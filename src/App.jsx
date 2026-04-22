@@ -1,5 +1,6 @@
 import "./App.css";
 import ControlledFiled from "./Components/ControlledField/ControlledFiled";
+import FamilyTree from "./Components/FamilyTree/FamilyTree";
 import FormAction from "./Components/FormAction/FormAction";
 import HookForm from "./Components/HookForm/HookForm";
 import ProductManagement from "./Components/ProductManagement/ProductManagement";
@@ -14,7 +15,8 @@ function App() {
         {/* <FormAction></FormAction> */}
         {/* <ControlledFiled></ControlledFiled> */}
         {/* <HookForm></HookForm> */}
-        <ProductManagement></ProductManagement>
+        {/* <ProductManagement></ProductManagement> */}
+        <FamilyTree></FamilyTree>
       </div>
     </>
   );
